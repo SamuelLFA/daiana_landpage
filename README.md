@@ -18,9 +18,3 @@ Open `index.html` directly in a browser, or serve with any static file server:
 ```bash
 python3 -m http.server 8080
 ```
-
-## Contact links
-
-All CTAs point to:
-- WhatsApp: `https://wa.me/553599482635`
-- Email: `psicodaianarocha@gmail.com`
