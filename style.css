@@ -279,7 +279,6 @@ nav.scrolled {
   box-shadow: var(--shadow);
   border: 1px solid rgba(255,255,255,0.9);
   min-width: 180px;
-  text-decoration: none;
   color: inherit;
   cursor: pointer;
   display: block;
@@ -785,3 +784,5 @@ footer {
 
   footer { flex-direction: column; text-align: center; }
 }
+
+a.hero-badge, a.hero-badge * { text-decoration: none ; }
