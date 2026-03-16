@@ -783,6 +783,9 @@ footer {
   .how-grid { grid-template-columns: 1fr; }
 
   footer { flex-direction: column; text-align: center; }
+
+  .hero-badge { transition: none; }
+  .hero-badge:hover { transform: none; box-shadow: var(--shadow); }
 }
 
 a.hero-badge, a.hero-badge * { text-decoration: none ; }
