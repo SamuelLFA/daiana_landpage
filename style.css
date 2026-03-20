@@ -282,11 +282,6 @@ nav.scrolled {
   color: inherit;
   cursor: pointer;
   display: block;
-  transition: box-shadow .2s, transform .2s;
-}
-.hero-badge:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-2px);
 }
 
 .hero-badge-label {
@@ -784,8 +779,6 @@ footer {
 
   footer { flex-direction: column; text-align: center; }
 
-  .hero-badge { transition: none; }
-  .hero-badge:hover { transform: none; box-shadow: var(--shadow); }
 }
 
 a.hero-badge, a.hero-badge * { text-decoration: none ; }
