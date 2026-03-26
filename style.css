@@ -744,6 +744,7 @@ footer {
   nav {
     top: 0.75rem;
     width: calc(100% - 2rem);
+    justify-content: center;
   }
 
   .nav-links { display: none; }
