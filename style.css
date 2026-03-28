@@ -243,14 +243,8 @@ nav.scrolled {
   position: absolute;
   inset: -12px;
   background: linear-gradient(135deg, var(--blue-muted) 0%, var(--blue) 100%);
-  border-radius: 42% 58% 62% 38% / 55% 45% 55% 45%;
+  border-radius: 50%;
   opacity: 0.15;
-  animation: morphBlob 8s ease-in-out infinite;
-}
-
-@keyframes morphBlob {
-  0%,100% { border-radius: 42% 58% 62% 38% / 55% 45% 55% 45%; }
-  50%      { border-radius: 62% 38% 42% 58% / 45% 55% 45% 55%; }
 }
 
 .hero-photo {
@@ -258,15 +252,9 @@ nav.scrolled {
   aspect-ratio: 3/4;
   object-fit: cover;
   object-position: center 35%;
-  border-radius: 42% 58% 62% 38% / 55% 45% 55% 45%;
+  border-radius: 50%;
   display: block;
   box-shadow: var(--shadow-lg);
-  animation: morphPhoto 8s ease-in-out infinite;
-}
-
-@keyframes morphPhoto {
-  0%,100% { border-radius: 42% 58% 62% 38% / 55% 45% 55% 45%; }
-  50%      { border-radius: 62% 38% 42% 58% / 45% 55% 45% 55%; }
 }
 
 .hero-badge {
